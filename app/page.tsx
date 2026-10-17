@@ -291,7 +291,7 @@ export default function Home() {
     }
   ];
 
-  // TUTTI E 10 I VIDEO MAPPATI SUI FILE CORRETTI NELLA CARTELLA PUBLIC
+  // TUTTI E 10 I VIDEO MAPPATI SULLE ESTENSIONI ESATTE PRESENTI IN PUBLIC
   const videoShowcase = [
     {
       id: "amynah-1",
@@ -333,7 +333,7 @@ export default function Home() {
       client: "NATURAL STYLE",
       category: "EDITORIAL STORY — BRUNCH 21HOUSE",
       note: "Live shooting e video editing in real-time per la copertura del format di brunch domenicali presso l'hotel 21 House of Stories Navigli.",
-      src: "/natural-brunch-21house.mov"
+      src: "/natural-brunch-21house.MOV"
     },
     {
       id: "scrambled-1",
