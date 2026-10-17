@@ -224,7 +224,7 @@ export default function Home() {
       gallery: [
         {
           subtitle: "01 / INSTAGRAM REDESIGN & CAROUSEL FORMATS",
-          desc: "Riprogettazione completa del sistema grafico per i caroselli e le rubriche social del profilo.\nEvoluzione da un layout tradizionale a una composizione editoriale dinamica: uso di tipografia ad alto contrasto, architettura ordinata per le tag geografiche e integrazione di sottotitoli in lingua inglese per la fruizione internazionale.",
+          desc: "Riprogettazione completa del sistema grafico per i caroselli e le rubriche social del profilo.\nEvoluzione da un layout tradizionale a una composizione editoriale dinamica: uso di tipografia ad alto contrasto, architettura ordinata per las tag geografiche e integrazione di sottotitoli in lingua inglese per la fruizione internazionale.",
           bgImage: "/bellitalia-bg.svg",
           bellitaliaCarousels: [
             {
@@ -291,7 +291,7 @@ export default function Home() {
     }
   ];
 
-  // TUTTI E 10 I VIDEO MAPPATI SULLE ESTENSIONI ESATTE PRESENTI IN PUBLIC
+  // TUTTI E 10 I VIDEO MAPPATI CON LE ESTENSIONI ESATTE DELLA CARTELLA PUBLIC
   const videoShowcase = [
     {
       id: "amynah-1",
@@ -333,7 +333,7 @@ export default function Home() {
       client: "NATURAL STYLE",
       category: "EDITORIAL STORY — BRUNCH 21HOUSE",
       note: "Live shooting e video editing in real-time per la copertura del format di brunch domenicali presso l'hotel 21 House of Stories Navigli.",
-      src: "/natural-brunch-21house.MOV"
+      src: "/natural-brunch-21house.mov"
     },
     {
       id: "scrambled-1",
