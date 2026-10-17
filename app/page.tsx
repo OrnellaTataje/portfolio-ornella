@@ -291,7 +291,7 @@ export default function Home() {
     }
   ];
 
-  // TUTTI E 10 I VIDEO COMPLETI DI AMYNAH 2 E BREAD THERAPY
+  // TUTTI E 10 I VIDEO MAPPATI SUI FILE CORRETTI NELLA CARTELLA PUBLIC
   const videoShowcase = [
     {
       id: "amynah-1",
@@ -305,7 +305,7 @@ export default function Home() {
       client: "AMYNAH JEWELLERY",
       category: "LUXURY BRAND REEL #2",
       note: "Video editing e cura del ritmo visivo per i contenuti del canale social Amynah.",
-      src: "/amynah-reel-2.mov"
+      src: "/amynah-reel-2.mp4"
     },
     {
       id: "greentosa-1",
@@ -326,14 +326,14 @@ export default function Home() {
       client: "NATURAL STYLE",
       category: "EDITORIAL STORY — BREAD THERAPY",
       note: "Riprese live e video editing per i contenuti editoriali di Natural Style.",
-      src: "/natural-bread-therapy.MOV"
+      src: "/natural-bread-therapy.mp4"
     },
     {
       id: "natural-4",
       client: "NATURAL STYLE",
       category: "EDITORIAL STORY — BRUNCH 21HOUSE",
       note: "Live shooting e video editing in real-time per la copertura del format di brunch domenicali presso l'hotel 21 House of Stories Navigli.",
-      src: "/natural-brunch-21house.MOV"
+      src: "/natural-brunch-21house.mov"
     },
     {
       id: "scrambled-1",
@@ -354,14 +354,14 @@ export default function Home() {
       client: "NATURAL STYLE X SOJASUN",
       category: "BRANDED CONTENT (PT. 1)",
       note: "Riprese live e video editing per gli eventi della Milano Wellness Week (Cairo Editore).",
-      src: "/natural-breathwork-1.MOV"
+      src: "/natural-breathwork-1.mp4"
     },
     {
       id: "natural-2",
       client: "NATURAL STYLE X SOJASUN",
       category: "BRANDED CONTENT (PT. 2)",
       note: "Riprese live e video editing per gli eventi della Milano Wellness Week (Cairo Editore).",
-      src: "/natural-breathwork-2.MOV"
+      src: "/natural-breathwork-2.mp4"
     }
   ];
 
