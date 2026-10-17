@@ -291,20 +291,21 @@ export default function Home() {
     }
   ];
 
+  // TUTTI E 10 I VIDEO COMPLETI DI AMYNAH 2 E BREAD THERAPY
   const videoShowcase = [
-    {
-      id: "natural-4",
-      client: "NATURAL STYLE",
-      category: "EDITORIAL STORY",
-      note: "Live shooting e video editing in real-time per la copertura del format di brunch domenicali presso l'hotel 21 House of Stories Navigli.",
-      src: "/natural-brunch-21house.MOV"
-    },
     {
       id: "amynah-1",
       client: "AMYNAH JEWELLERY",
-      category: "LUXURY BRAND REEL",
+      category: "LUXURY BRAND REEL #1",
       note: "Video editing, montaggio ritmico e motion design per il pitch di alta gioielleria (Greentosa Communication).",
       src: "/amynah-reel-1.mov"
+    },
+    {
+      id: "amynah-2",
+      client: "AMYNAH JEWELLERY",
+      category: "LUXURY BRAND REEL #2",
+      note: "Video editing e cura del ritmo visivo per i contenuti del canale social Amynah.",
+      src: "/amynah-reel-2.mov"
     },
     {
       id: "greentosa-1",
@@ -319,6 +320,20 @@ export default function Home() {
       category: "SOCIAL TREND REEL #2",
       note: "Produzione video on-set e editing per contenuti social ad alto ingaggio.",
       src: "/greentosa-trend-2.mov"
+    },
+    {
+      id: "natural-bread",
+      client: "NATURAL STYLE",
+      category: "EDITORIAL STORY — BREAD THERAPY",
+      note: "Riprese live e video editing per i contenuti editoriali di Natural Style.",
+      src: "/natural-bread-therapy.MOV"
+    },
+    {
+      id: "natural-4",
+      client: "NATURAL STYLE",
+      category: "EDITORIAL STORY — BRUNCH 21HOUSE",
+      note: "Live shooting e video editing in real-time per la copertura del format di brunch domenicali presso l'hotel 21 House of Stories Navigli.",
+      src: "/natural-brunch-21house.MOV"
     },
     {
       id: "scrambled-1",
@@ -339,14 +354,14 @@ export default function Home() {
       client: "NATURAL STYLE X SOJASUN",
       category: "BRANDED CONTENT (PT. 1)",
       note: "Riprese live e video editing per gli eventi della Milano Wellness Week (Cairo Editore).",
-      src: "/natural-breathwork-1.mov"
+      src: "/natural-breathwork-1.MOV"
     },
     {
       id: "natural-2",
       client: "NATURAL STYLE X SOJASUN",
       category: "BRANDED CONTENT (PT. 2)",
       note: "Riprese live e video editing per gli eventi della Milano Wellness Week (Cairo Editore).",
-      src: "/natural-breathwork-2.mov"
+      src: "/natural-breathwork-2.MOV"
     }
   ];
 
