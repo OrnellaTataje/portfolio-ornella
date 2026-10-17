@@ -224,7 +224,7 @@ export default function Home() {
       gallery: [
         {
           subtitle: "01 / INSTAGRAM REDESIGN & CAROUSEL FORMATS",
-          desc: "Riprogettazione completa del sistema grafico per i caroselli e le rubriche social del profilo.\nEvoluzione da un layout tradizionale a una composizione editoriale dinamica: uso di tipografia ad alto contrasto, architettura ordinata per las tag geografiche e integrazione di sottotitoli in lingua inglese per la fruizione internazionale.",
+          desc: "Riprogettazione completa del sistema grafico per i caroselli e le rubriche social del profilo.\nEvoluzione da un layout tradizionale a una composizione editoriale dinamica: uso di tipografia ad alto contrasto, architettura ordinata per le tag geografiche e integrazione di sottotitoli in lingua inglese per la fruizione internazionale.",
           bgImage: "/bellitalia-bg.svg",
           bellitaliaCarousels: [
             {
@@ -291,7 +291,7 @@ export default function Home() {
     }
   ];
 
-  // TUTTI E 10 I VIDEO MAPPATI CON LE ESTENSIONI ESATTE DELLA CARTELLA PUBLIC
+  // TUTTI E 10 I VIDEO MAPPATI SULLE ESTENSIONI ESATTE DELLA CARTELLA PUBLIC
   const videoShowcase = [
     {
       id: "amynah-1",
@@ -1291,7 +1291,7 @@ export default function Home() {
                           className="relative overflow-hidden bg-cover bg-center bg-fixed p-8 md:p-14 border border-white/10"
                           style={{ backgroundImage: "url(/amynah-bg.png)", clipPath: "inset(0)" }}
                         >
-                          <div className="relative z-10 flex flex-col md:flex-row items-center justify-around w-full max-w-6xl mx-auto gap-8 md:gap-12">
+                          <div className="relative z-10 flex flex-col md:flex-row items-center justify-center w-full max-w-6xl mx-auto gap-8 md:gap-12">
                             
                             {/* 1. GRIGLIA DA 9 */}
                             <div className="flex items-center justify-center p-2">
@@ -1303,7 +1303,7 @@ export default function Home() {
                             </div>
 
                             {/* 2. MOCKUP TELEFONO */}
-                            <div className="flex items-center justify-center p-2 pt-8 md:pt-0">
+                            <div className="flex items-center justify-center p-2">
                               <img 
                                 src="/amynah-phone.png" 
                                 alt="Amynah Instagram Phone UI" 
