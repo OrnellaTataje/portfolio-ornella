@@ -396,10 +396,10 @@ export default function Home() {
   const GAP = 24;
   const STEP = CARD_WIDTH + GAP;
 
-  // CONFIGURAZIONE TRANSIZIONE MORBIDA ED ELEGANTE PER L'HERO HOVER
+  // CONFIGURAZIONE TRANSIZIONE MORBIDA ED ELEGANTE PER L'HERO HOVER CON AS CONST
   const softHoverTransition = {
     duration: 0.4,
-    ease: [0.25, 1, 0.5, 1]
+    ease: [0.25, 1, 0.5, 1] as const
   };
 
   return (
@@ -435,7 +435,7 @@ export default function Home() {
           <motion.a 
             href="#home" 
             style={{ y: homeY, opacity: homeOpacity }}
-            transition={{ ease: [0.25, 0.1, 0.25, 1] }}
+            transition={{ ease: [0.25, 0.1, 0.25, 1] as const }}
             className="hover:font-bold transition-all duration-200 inline-block"
           >
             Home
@@ -444,7 +444,7 @@ export default function Home() {
           <motion.a 
             href="#about" 
             style={{ y: aboutY, opacity: aboutOpacity }}
-            transition={{ ease: [0.25, 0.1, 0.25, 1] }}
+            transition={{ ease: [0.25, 0.1, 0.25, 1] as const }}
             className="hover:font-bold transition-all duration-200 inline-block"
           >
             About
@@ -453,7 +453,7 @@ export default function Home() {
           <motion.a 
             href="#work" 
             style={{ y: workY, opacity: workOpacity }}
-            transition={{ ease: [0.25, 0.1, 0.25, 1] }}
+            transition={{ ease: [0.25, 0.1, 0.25, 1] as const }}
             className="hover:font-bold transition-all duration-200 inline-block"
           >
             Work
@@ -462,7 +462,7 @@ export default function Home() {
           <motion.a 
             href="#contact" 
             style={{ y: contactY, opacity: contactOpacity }}
-            transition={{ ease: [0.25, 0.1, 0.25, 1] }}
+            transition={{ ease: [0.25, 0.1, 0.25, 1] as const }}
             className="hover:font-bold transition-all duration-200 inline-block"
           >
             Contact
@@ -605,7 +605,7 @@ export default function Home() {
             initial={{ opacity: 0, x: 60 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
+            transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] as const }}
             className="md:col-span-7 space-y-6 text-left"
           >
             <h2 className="text-xl md:text-2xl font-bold tracking-tight text-[#111111]">
@@ -764,7 +764,7 @@ export default function Home() {
                   >
                     <motion.div 
                       whileHover={{ scale: 1.03 }}
-                      transition={{ duration: 0.35, ease: [0.25, 0.1, 0.25, 1] }}
+                      transition={{ duration: 0.35, ease: [0.25, 0.1, 0.25, 1] as const }}
                       className="w-full h-full rounded-2xl overflow-hidden relative bg-black border border-black/10"
                     >
                       <video 
