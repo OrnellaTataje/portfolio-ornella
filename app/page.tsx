@@ -333,7 +333,7 @@ export default function Home() {
       client: "NATURAL STYLE",
       category: "EDITORIAL STORY — BRUNCH 21HOUSE",
       note: "Live shooting e video editing in real-time per la copertura del format di brunch domenicali presso l'hotel 21 House of Stories Navigli.",
-      src: "/natural-brunch-21house.mov"
+      src: "/natural-brunch-21house.mp4"
     },
     {
       id: "scrambled-1",
